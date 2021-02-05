@@ -1,91 +1,83 @@
 <!DOCTYPE HTML>
 <!--
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Future Imperfect by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Covid-19 Dashboard</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <head>
+        <title>Covid-19 Dashboard</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <style>
-            p {text-indent: 30px;}
+            p{text-indent: 30px;}
         </style>
-	</head>
-	<body class="single is-preload">
+    </head>
+    <body class="single is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Wrapper -->
+        <div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Home</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="data.html">Data</a></li>
-								<li><a href="#">Math</a></li>
-								<li><a href="#">Adventure</a></li>
-								<li><a href="resume.html">Resume</a></li>
-							</ul>
-						</nav>
-					</header>
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Home</a></h1>
+                <nav class="links">
+                    <ul>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="data.html">Data</a></li>
+                        <li><a href="#">Math</a></li>
+                        <li><a href="adventure.html">Adventure</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-				<!-- Main -->
-					<div id="main">
+            <!-- Main -->
+            <div id="main">
 
-						<!-- Post -->
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="#">Covid-19 Dashboard</a></h2>
-										<p></p>
-									</div>
-									<div class="meta">
-										<center><time class="published" datetime="07-15-2020">July 15, 2020</time></center>
-										<center><span class="name">Jacob Der</span></center>
-									</div>
-								</header>
-                                <p>
-                                    This is a reactive dashboard I made using python to create a choropleth of the US and display graphs of covid-19 cases/deaths over time. Over on my <a href = 'https://github.com/JacobDer/corona_dash'>github</a> you can also go view the code I used to produce this dashboard.  
-                                </p>
-                                <p>
-                                    The data used comes from the New York Times, and can be found <a href = 'https://github.com/nytimes/covid-19-data/blob/master/us-states.csv'>here</a>.
-                                </p>
-                                <center>
-                                    <iframe src = 'https://coronavirus-map-dash.herokuapp.com/' width = '1200' height = '1200'></iframe>
-								</center>
-								<p>
-									Something to take note of might be the fact that in quite a few states the relationship between Covid-19-related deaths and time appears astonishingly linear, meaning that the rate (first derivative) at which the coronavirus is killing isn't slowing down there. Still in others, the concavity (second derivative) of the graph is positive, meaning that the rate at which the coronavirus is killing is <i>increasing</i>. 
-								</p>
-								<p>
-									An initial questions I had: In a lot of the graphs, it doesn't seem like the precautions (e.g. stay-at-home orders, shutting down places, etc.) were very effective—why is this the case? 
-								</p>
-								<p>
-									Regardless of the answer stay safe, folks.
-								</p>
-							</article>
+                <!-- Post -->
+                <article class="post">
+                    <header>
+                        <div class="title">
+                            <h2><a href="#">Covid-19 Dashboard</a></h2>
+                            <p></p>
+                        </div>
+                        <div class="meta">
+                            <center><time class="published" datetime="07-15-2020">July 15, 2020</time></center>
+                            <center><span class="name">Jacob Der</span></center>
+                        </div>
+                    </header>
+                    <p>
+                    This is a dashboard I made using python to create a choropleth of the US and display graphs of covid-19 cases/deaths over time.
+                    </p>
+                    <p>
+                    The data used comes from the New York Times, and can be found <a href = 'https://github.com/nytimes/covid-19-data/blob/master/us-states.csv'>here</a>.
+                    </p>
+                    <center>
+                        <iframe src = 'https://coronavirus-map-dash.herokuapp.com/' width = '1200' height = '1200'></iframe>
+                    </center>
+                </article>
 
-					</div>
+            </div>
 
-				<!-- Footer -->
-					<section id="footer">
-						<ul class="icons">
-							<li><a href="https://twitter.com/twiderrrr" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.linkedin.com/in/jacob-der-529210149" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://www.instagram.com/the_little_dermaid/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						</ul>
-					</section>
+            <!-- Footer -->
+            <section id="footer">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/twiderrrr" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/jacob-der-529210149" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.instagram.com/the_little_dermaid/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                </ul>
+            </section>
 
-			</div>
+        </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
-	</body>
+    </body>
 </html>
